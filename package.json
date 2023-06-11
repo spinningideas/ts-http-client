@@ -1,0 +1,29 @@
+{
+  "name": "ts-http-client",
+  "version": "1.0.0",
+  "description": "Typescript http client that wraps fetch and adds type support",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinningideas/ts-http-client.git"
+  },
+  "keywords": [
+    "fetch",
+    "typescript",
+    "http",
+    "client",
+    "api",
+    "client"
+  ],
+  "author": "spinningideas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spinningideas/ts-http-client/issues"
+  },
+  "homepage": "https://github.com/spinningideas/ts-http-client#readme",
+  "devDependencies": {
+    "typescript": "4.9.3"
+  }
+}

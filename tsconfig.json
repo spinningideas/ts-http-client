@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "listFiles": true,
+    "module": "es6",
+    "skipLibCheck": true,
+    "target": "es6"
+  }
+}
