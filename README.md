@@ -33,14 +33,12 @@ const getPosts = await HttpClient().get<Post[]>('https://exampleapi.org')
 
 # Why not Axios?
 
-1. Axios has had breaking changes
+1. Axios has had breaking changes and is not advancing as much as the rest of web
 
-Axios shipped out v0.27.0 which included some breaking changes and bugs. It crossed the v1 version and is potentially more stable now.
+Axios has at times included breaking changes and bugs. It crossed into v1 version and is potentially more stable now.
 
-2. Axios codebase is not advancing
-
-v0.27.0 broke FormData handling unintentionally (ref: https://github.com/axios/axios/pull/4640). This fix showed how old codebase is. v0.27.0 shipped 1 year after the the PR merged and the library seems to have low momentum.
-
-3. Axios is still using the XMLHttpRequests API
+2. Axios is still using the XMLHttpRequests API
 
 Axios is still using the old XMLHttpRequests API and thus has to manually implement a lot of handling and workarounds we get for free with Fetch API. Fetch API is now supported by nearly all browsers and has become the standard. Fetch API based HTTP client also results in smaller bundle size in general.
+
+NOTE: One can use typescript with Axios - see https://marketsplash.com/tutorials/typescript/axios-typescript/
